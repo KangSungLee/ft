@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="0; url=/?p=">
+  <script>
+    var currentPath = location.pathname + location.search + location.hash;
+    var newUrl = '/?p=' + encodeURIComponent(currentPath);
+    window.location.href = newUrl;
+  </script>
+</head>
+<body>
+  Redirecting...
+</body>
+</html>
